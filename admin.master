@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Railway</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- js -->
+   <script src="js/jquery-1.11.1.min.js"></script>
+<link href="images/calendar.css" rel="stylesheet"/>
+
+<link type="text/css" href="images/menu.css"rel="stylesheet" />
+    <script type="text/javascript" src="images/jquery.js"></script>
+    <script type="text/javascript" src="images/menu.js"></script>
+    <script type="text/javascript" src="images/calendar.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+    <link type="text/css" href="menu.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+
+
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!--- start-rate---->
+<script src="js/jstarbox.js"></script>
+	<link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+	
+<!---//End-rate---->
+
+</head>
+<body >
+    <form id="form1" runat="server">
+<a href="#"></a>
+<div class="header">
+
+		<div class="container">
+			
+			<div class="logo">
+	<img src="images/logo.png">
+			</div>
+					
+  </div>			
+</div>
+  <!---->
+ <!--banner-->
+<div class="banner-top">
+	<div class="container">
+		<h3 >Login</h3>
+		<h4><!--<a href="Sms.aspx">SMS</a>
+		  <label>/</label>--->
+		   <a href="Master.aspx"> Logout</a></h4>
+	
+	</div>
+</div>
+<div id="menu">
+    <ul class="menu" 
+        
+        style="font-size: large; font-weight: bold; text-transform: capitalize; background-color: #003366;">
+        <li><a href="Adminmenu.aspx" class="parent"
+                
+                
+                
+                style="font-size: xx-large; font-weight: bold; font-variant: normal; text-transform: capitalize; top: 0px; left: 0px; width: 178px;">
+            <span style="color: #FFFFFF; font-size: x-large; font-weight: bold;">Admin</span></a>
+          
+        </li>
+        <li><a href="#" class="parent" 
+                
+                
+                
+                
+                
+                style="font-size: xx-large; font-weight: bold; font-style: normal; font-variant: normal; text-transform: capitalize; top: 0px; left: 0px; width: auto;">
+            <span style="color: #FFFFFF; font-size: x-large; font-weight: bold;">&nbsp;CONTACT </span></a>
+            &nbsp;<ul>
+                <li><a href="Sms.aspx" class="parent"><span>SMS</span></a>
+                   
+                </li>
+             <li><a href="Gmail.aspx" class="parent"><span>GMAIL</span></a>
+                   
+                </li>
+         
+            </ul>
+        </li>
+       <li><a href="#" class="parent" 
+               
+               
+               style="font-size: xx-large; font-weight: bold; text-transform: capitalize; top: 0px; left: 7px; width: 147px;">
+           <span style="color: #FFFFFF; font-size: x-large; font-weight: bold;">&nbsp;ADD</span></a>
+            <ul>
+                <li><a href="Stationadd.aspx" class="parent"><span>STATION ADD</span></a>
+                   
+                </li>
+             <li><a href="Designationadd.aspx" class="parent"><span>DESIGNATION ADD</span></a>
+                   
+                </li>
+         
+            </ul>
+        </li>
+       <!--- <li class="last"><a href="Stationadd.aspx"><span>Station Add</span></a></li>
+         <li><a href="Designationadd.aspx"><span>Designation Add</span></a></li>--->
+           <li><a href="Changepwd.aspx" 
+                   
+                   
+                   style="font-size: xx-large; font-weight: bold; text-transform: capitalize; top: 0px; left: 0px; width: auto;">
+               <span style="color: #FFFFFF; font-size: x-large; font-weight: bold;">Change password </span></a></li>
+               <li><a href="Report.aspx" 
+                       
+                       
+                       style="font-size: xx-large; font-weight: bold; font-style: normal; font-variant: normal; text-transform: capitalize; top: 0px; left: -1px; width: 217px;">
+                   <span style="color: #FFFFFF; font-size: x-large; font-weight: bold;">&nbsp;Report</span></a></li>
+                      <li><a href="Default.aspx" 
+                              
+                              
+                              
+                              style="font-size: xx-large; font-weight: bold; font-style: normal; font-variant: normal; text-transform: capitalize; top: 0px; left: 0px; width: auto;">
+                          <span style="color: #FFFFFF; font-size: x-large; font-weight: bold;">LogouT</span></a></li>
+    </ul>
+</div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    
+    </asp:ContentPlaceHolder>
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+	  <div class="copy-right">
+			<p> &copy; 2023 Southern Railway Madurai Division. All Rights Reserved | Design by  <a href="#" style="font-weight:bold"> Saranya... </a></p>
+	  </div>
+  </div>
+</div>
+<!-- //footer-->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript">
+  $(function () {
+
+    var goToCartIcon = function($addTocartBtn){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      $addTocartBtn.prepend($image);
+      var position = $cartIcon.position();
+      $image.animate({
+        top: position.top,
+        left: position.left
+      }, 500 , "linear", function() {
+        $image.remove();
+      });
+    }
+
+    $('.my-cart-btn').myCart({
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      affixCartIcon: true,
+      checkoutCart: function(products) {
+        $.each(products, function(){
+          console.log(this);
+        });
+      },
+      clickOnAddToCart: function($addTocart){
+        goToCartIcon($addTocart);
+      },
+      getDiscountPrice: function(products) {
+        var total = 0;
+        $.each(products, function(){
+          total += this.quantity * this.price;
+        });
+        return total * 1;
+      }
+    });
+
+  });
+  </script>
+
+    </form>
+
+</body>
+</html>
